@@ -1,0 +1,1 @@
+This app computes the discrete-time convolution of two input arrays and plots it. I got tired of doing these by hand for electrical engineering class, so I figured I'd automate it.

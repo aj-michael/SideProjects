@@ -6,3 +6,35 @@ textarea {
 .middletext {
   vertical-align: middle;
 }
+
+pre {
+  display: inline;
+}
+
+.plotcontainer {
+  box-sizing: border-box;
+  width: 850px;
+  height: 300px;
+  padding: 20px 15px 15px 15px;
+  margin: 15px auto 30px auto;
+  background: #fff;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+.plotplaceholder {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.2em;
+}
+
+.heading {
+  font-size: 28px;
+  left: 50%;
+  text-align: center;
+}
