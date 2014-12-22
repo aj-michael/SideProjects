@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+  <title>Discrete Convolution</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="convolution.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+  <script type="text/javascript" src="convolution.js"></script>
+</head>
+
+<body ng-controller="MyController">
+  <div>
+    <span class="middletext">x1 = </span>
+    <input ng-model="x1" ng-list=" " ng-trim="false" required></input>
+    <pre>{{ x1 | json }}</pre>
+    <span class="middletext">x2 = </span>
+    <input ng-model="x2" ng-list=" " ng-trim="false"></input>
+    <pre>{{ x2 | json }}</pre>
+  </div>
+</body>
+
+</html>
