@@ -1,0 +1,3 @@
+This website displays the IP of the user by using JSONP and a small server on an EC2 instance.
+
+That is all.
