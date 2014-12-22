@@ -1,0 +1,10 @@
+div {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-align: center;
+}
+
+.centered {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+}
